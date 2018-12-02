@@ -417,7 +417,7 @@ textarea {
 }
 .default-text {
 	font-family: 'open_sanslight', sans-serif;
-	font-size: 1.6rem;
+	font-size: 1rem;
 	line-height: 1.7333em;
 }
 .rhomb-icon {
@@ -516,11 +516,10 @@ textarea.form-control {
 .header-nav {
 	font-family: 'open_sansregular', sans-serif;
 	float: right;
-	color: rgba(0, 64, 109, .75);
+	color: rgba(8, 64, 109, .75);
 	text-transform: uppercase;
 	font-size: 0.7333rem;
 	letter-spacing: 0.3em;
-	font-weight: bolder;
 }
 .header-nav li {
 	float: left;
