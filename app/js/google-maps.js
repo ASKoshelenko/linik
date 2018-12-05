@@ -18,11 +18,11 @@ function initMap() {
 
 
         // Add your coordinates. How to know coordinates: https://support.google.com/maps/answer/18539?hl=en
-        let myLatlng = new google.maps.LatLng(49.982521, 36.246361);
+        let myLatlng = new google.maps.LatLng(48.849647, 38.323879);
 
         // Add your company name and some text about company
-        let maptooltipbold = 'EasyCode';
-        let maptooltip = 'IT курсы';
+        let maptooltipbold = 'НПЗ';
+        let maptooltip = 'Лисичанск';
 
 
         //---------------------------------------------------------//
@@ -31,7 +31,7 @@ function initMap() {
         let mapOptions = {
 
             // How zoomed in you want the map to start at (always required)
-            zoom: 16,
+            zoom: 12,
 
             //scroll zoom false
             scrollwheel: false,
@@ -64,7 +64,7 @@ function initMap() {
         let map = new google.maps.Map(mapElement, mapOptions);
 
         // Image of toogle
-        let image = 'img/contacts-map-marker.png';
+        let image = 'img/contacts-map-marker1.png';
 
         // Div's of toogle
         let content = document.createElement('div');
