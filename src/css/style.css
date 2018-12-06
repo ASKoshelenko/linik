@@ -733,6 +733,10 @@ blockquote span {
 	letter-spacing: 0.4em;
 	text-transform: uppercase;
 }
+.services-icon {
+	height: 3.2rem;
+	color: lightgray;
+}
 @media (max-width: 991px) {
 	.services-tab ul li a span:last-child {
 		letter-spacing: 0.2em;
