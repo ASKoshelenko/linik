@@ -790,6 +790,10 @@ blockquote span {
 	height: 3.2rem;
 	color: lightgray;
 }
+.services-icon.gray-icon {
+	-webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
+}
 @media (max-width: 991px) {
 	.services-tab ul li a span:last-child {
 		letter-spacing: 0.2em;
