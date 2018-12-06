@@ -542,8 +542,6 @@ textarea.form-control {
 	display: inline-block;
 	height: 100%;
 	vertical-align: middle;
-	/* нужен для того чтобы содержимое не 
-	вываливалось за пределы окна */
 	margin-left: -4px;
 }
 .inner1-content, .inner2-content, .inner3-content {
@@ -597,116 +595,6 @@ textarea.form-control {
 	}
 }
 /* ===== Inner stop ===== */
-/* ===== About studio start ===== */
-blockquote p {
-	font-family: 'open_sanslight', sans-serif;
-	line-height: 1.58333em;
-	font-size: 1.6rem;
-	padding-bottom: 0.8333em;
-}
-blockquote span {
-	font-family: 'open_sansregular',sans-serif;
-	text-transform: uppercase;
-	font-size: 0.7333rem;
-	letter-spacing: 0.2em;
-}
-.about-studio .row + .row {
-	margin-top: 100px;
-}
-.team-item-photo {
-	height: 450px;
-	position: relative;
-	perspective: 2000px;
-}
-.team-item-skills {
-	background-color: #000;
-	transform: rotateY(180deg);	
-	padding: 28px 40px;
-}
-.team-item-skills .title {
-	margin-bottom: 15px;
-}
-.team-item-skills .title.title-light {
-	line-height: 2.1111em;
-}
-.characteristic{
-	font-family: 'open_sansregular',sans-serif;
-	font-size: 0.8667rem;
-	line-height: 1.6153em;
-	margin-bottom: 37px;
-	color: rgba(255, 255, 255, .5)
-}
-.skill-name {
-	font-family: 'open_sansregular',sans-serif;
-	font-size: 0.7333rem;
-	letter-spacing: 0.2em;
-	color: rgba(255, 255, 255, .9);
-	text-transform: uppercase;
-	margin-bottom: 3px;
-}
-.team-item-skills ul li + li {
-	margin-top: 15px;
-}
-.container-for-flip {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	backface-visibility: hidden;
-	transition: all .8s ease;
-}
-.team-item-photo:hover .team-item-front {
-	transform: rotateY(180deg);
-}
-.team-item-photo:hover .team-item-skills {
-	transform: rotateY(360deg);
-}
-.progress-bar {
-	border: 1px solid #fff;
-	height: 12px;
-	width: 100%;
-	position: relative;
-}
-.progress-bar .progress {
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	background-color: #fff;
-	transition: all .2s linear
-}
-.team-item-info {
-	padding-top: 18px;
-	font-family: 'dosisregular', sans-serif;
-	letter-spacing: 0.4em;
-	text-transform: uppercase;
-}
-.team-item-info span {
-	display: block;
-}
-.team-item-name {
-	font-size: 1rem;
-	text-indent: 0.4em;	
-	padding-bottom: 9px;
-}
-.team-item-role {
-	font-size: 0.8rem;
-	letter-spacing: 0.4em;
-	text-indent: 0.4em;
-}
-@media (max-width: 991px) {
-	.col > *:first-child {
-		margin-bottom: 30px;
-	}
-}
-@media (max-width: 767px) {
-	.team-item-photo {
-		text-align: center;
-	}
-}
-/* дома надо задать шрифты размеры и отступы либо от картинки, либо от теста */
-/* ===== About studio end ===== */
 /* ===== Services start ===== */
 .services-tab ul {
 	overflow: hidden;
@@ -759,25 +647,6 @@ blockquote span {
 	}
 }
 /* ===== Services end ===== */
-/* ===== Lets talk start ===== */
-.lets-talk-wrapper {
-	padding-top: 130px;
-	padding-bottom: 140px;
-}
-.lets-talk-wrapper .title {
-	margin-bottom: 14px;
-}
-.lets-talk-wrapper p {
-	padding-bottom: 37px;
-}
-.lets-talk-img {
-	margin-top: -32px;
-}
-.lets-talk .default-text {
-	/* белый цвет на 70% не прозрачный */
-	color: rgba(255, 255, 255, .7);
-}
-/* ===== Lets talk end ===== */
 /* ===== Portfolio start ===== */
 .portfolio{
 	padding-bottom: 0;
@@ -848,12 +717,6 @@ blockquote span {
 	}
 }
 /* ===== Portfolio end ===== */
-/* ===== Start project start ===== */
-.like-our-works .title {
-	margin-bottom: 17px;
-	margin-top: -8px;
-}
-/* ===== Start project end ===== */
 /* ===== Why chose us start ===== */
 .advantage-icon {
 	font-size: 3.2rem;
@@ -1065,31 +928,11 @@ blockquote span {
 	}
 }
 /* === Latest news end === */
-/* ===== Subscribe start ===== */
-.subscribe-title {
-	font-family: 'dosislight', sans-serif;
-	font-size: 1.0667rem;
-	line-height: 1.625em;
-	letter-spacing: 0.3em;
-	margin-top: 10px;
-	margin-bottom: 15px;
-	color: #111;
-	text-transform: uppercase;
-	font-weight: normal;
+/* History start */
+.history {
+	margin: 0 15px;
 }
-.subscribe-form .form-control {
-	width: 293px;
-}
-.subscribe-form .form-info{
-	margin-top: 12px;
-}
-@media (max-width: 576px) {
-	.subscribe-form-control {
-		width: 100%;
-		margin-bottom: 10px;
-	}
-}
-/* ===== Subscribe end ===== */
+/* History end */
 /* ===== Contacts start ===== */
 .contact-title {
 	font-family: 'dosisregular', sans-serif;
