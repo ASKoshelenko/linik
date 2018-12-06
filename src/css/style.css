@@ -1095,15 +1095,23 @@ blockquote span {
 	font-size: 0.8rem;
 	letter-spacing: 0.3em;
 	color: #777;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .contact-data {
 	font-family: 'dosisregular', sans-serif;
 	font-size: 1rem;
 	line-height: 1.6em;
 	color: #444;
+	margin-left: auto;
+	margin-right: auto;
 }
 .contact-item .rhomb-icon{
-	vertical-align: middle;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 .contact-item-content {
 	display: inline-block;
