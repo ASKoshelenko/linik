@@ -501,6 +501,7 @@ textarea.form-control {
 	right: 0;
 	padding: 15px 0;
 	z-index: 999;
+	background-color: rgba(100, 100, 100, .5);
 }
 .logo {
 	font-family: 'open_sanssemibold', sans-serif;
@@ -516,7 +517,8 @@ textarea.form-control {
 .header-nav {
 	font-family: 'open_sansregular', sans-serif;
 	float: right;
-	color: rgba(8, 64, 109, .75);
+	color: rgba(255, 255, 255, .7);
+	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 0.7333rem;
 	letter-spacing: 0.3em;

@@ -9,7 +9,7 @@ function onScroll(e) { // вешаем событие на скрол в окн�
         header.css({
             'position': 'fixed',
             'top': -(headerHeight + 50),
-            'background-color': 'rgba(100,100,100, 0.1)'
+            'background-color': 'rgba(100,100,100, 0.5)'
         });
     }
     if (pos > windowHeight) { // если высота больше высоты окна браузера
@@ -23,7 +23,7 @@ function onScroll(e) { // вешаем событие на скрол в окн�
         header.css({
             'position': 'absolute',
             'top': '0',
-            'background-color': 'transparent',
+            'background-color': 'rgba(100, 100, 100, .5)',
             'transition': 'none'
         });
     }
